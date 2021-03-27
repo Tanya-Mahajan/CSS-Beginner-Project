@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Peddana&display=swap');
+
+
+body{
+  font-family: 'Peddana', serif;
+  font-weight:300;
+  margin:50px;
+
+}
+
+body h1{
+  font-weight:300;
+  margin:20px 30px;
+}
+
+#main-header{
+  border-bottom:  1px solid #0af;
+  margin:0px;
+
+
+}
+
+#News{
+  width: 1000px;
+  margin:50px;
+  margin-top:7px;
+
+}
+
+article{
+  width:311px;
+  display:inline-block;
+  border: 1px solid #000;
+  padding: 10px;
+  margin left: 50px;
+  box-shadow:5px 4px 10px 2px rgba(0,0,0,.3);
+  transition : all 1s;
+  transition:box-shadow 500ms, background 3s;
+
+
+}
+
+article:hover{
+  box-shadow:5px 5px 20px rgba(0,0,0,.7);
+  background:#bbb;
+}
+
+article img{
+  width:100%;
+  height:100px;
+}
+
+.article-image{
+  width: 100%;
+  height:200px;
+  background-size:cover !important;
+  background-position:center !important;
+  border-radius: 100px;
+
+}
+.my-input{
+  width:80%;
+  height:30px;
+  display:block;
+  margin:50px;
+}
+
+.my-input:focus{
+  background:#8af;
+  color:#00g;
+}
+article:active{
+  opacity:.4;
+}
+
+a:hover{
+  color:#0f0;
+}
+.my-para{
+  margin:50px;
+  height:600px;
+  max-height: 200px;
+  overflow:scroll;
+  overflow-x: hidden;
+  border:2px solid #000;
+}
