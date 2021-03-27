@@ -1,0 +1,46 @@
+<html>
+   <head>
+       <title>Welcome to CSS</title>
+       <link rel="stylesheet" href="css/style.css" />
+   </head>
+    <body>
+      <header id ="main-header">
+        <h1>Welcome to CSS</h1>
+      </header>
+      <input placeholder="Search...." class="my-input" />
+      <button id="go-button">GO</button>
+      <br /><br />
+    <div id="text">Click the button</div>
+      <main>
+        <section  id="News">
+        <article>
+          <h2>Web</h2>
+          <p>hey welcome to the ultimate web dev course.<a href = "#">Read more...</a></p>
+          <div class="article-image" style="background:url(Web.jpg)"></div>
+
+        </article>
+
+        <article>
+          <h2>Embedded Systems</h2>
+          <p>Hi wel to the ultimate em course.<a href = "#">Read more...</a></p>
+
+          <div class="article-image" style = "background:url(EM.jpg)"></div>
+        </article>
+        </section>
+  <div class="my-para" >
+        <p>There are many reasons to start a blog for personal use and only a handful of strong ones for business blogging. Blogging for business, projects, or anything else that might bring you money has a very straightforward purpose – to rank your website higher in Google SERPs, a.k.a. increase your visibility.
+
+        </p>
+<p>As a business, you rely on consumers to keep buying your products and services. As a new business, you rely on blogging to help you get to potential consumers and grab their attention. Without blogging, your website would remain invisible, whereas running a blog makes you searchable and competitive.
+</p>
+<p>So, the main purpose of a blog is to connect you to the relevant audience. Another one is to boost your traffic and send quality leads to your website.
+</p>
+<p>The more frequent and better your blog posts are, the higher the chances for your website to get discovered and visited by your target audience. This means that a blog is an effective lead generation tool. Add a great call to action (CTA) to your content, and it will convert your website traffic into high-quality leads. A blog also allows you to showcase your niche authority and build a brand.
+</p>
+<p>When you use your niche knowledge for creating informative and engaging posts, it builds trust with your audience. Great blogging makes your business look more credible, which is especially important if your brand is still young and fairly unknown. It ensures presence online and niche authority at the same time.
+
+        </p>
+      </div>
+      <script src="JS/main.js"></script>
+    </body>
+</html>
